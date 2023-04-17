@@ -15,7 +15,7 @@ Here is what I have learned so far:
 7. To execute a SQL command, you use (the_cursor_variable).execute("some_SQL_command")
    Example: cursor_variable.execute("SELECT * FROM db_table")
 
-8. Sometimes you use ("...") and sometimes you use ("""...""") in the execute paranthesis<--- Don't know the difference, so may want to look a little deeper
+8. Use ("...") for single line commands and ("""...""") for multiple lines of commands
 
 9. connection_variable.commit() needs to be made if you wish to commit new information
 
